@@ -1,0 +1,151 @@
+header{
+    text-align: center;
+    font-size: larger;
+
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+
+.float-child {
+    flex: 1;
+    width: 60%;
+    height: 150%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+    margin-right: 20px;
+}  
+
+body{
+  background-color: ;
+}
+
+
+/* Chat containers */
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }
+
+  /* delete button*/
+  .style {
+    color: green;
+    padding: 10px;
+  }
+
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  input[type="text"] {
+    padding: 15px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    width: 70%;
+  }
+
+  button {
+    background-color: #54be58;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #479849;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+  }
+
+  li.done {
+    text-decoration: line-through;
+  }
+
+  li button {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  li button:hover {
+    background-color: rgb(220, 25, 25);
+  }
+
+  
